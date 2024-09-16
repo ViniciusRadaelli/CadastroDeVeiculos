@@ -1,6 +1,6 @@
 from Veiculo import Veiculo
 
-#SubClasse (Herança)
+
 class Moto(Veiculo):
     def __init__(self, marca, modelo, placa, ano, cilindradas):
         super().__init__(marca, modelo, placa, ano)

@@ -1,10 +1,8 @@
-#Arquivo de classes (Abstração)
 
-#SuperClasse
 class Veiculo: 
-    # __init_ => é o método construtor
+    #
     def __init__(self, marca, modelo, placa, ano):
-        #Métodos privados (Encapsulamento)
+        #
         self.__marca = marca
         self.__modelo = modelo
         self.__placa = placa
@@ -18,7 +16,7 @@ class Veiculo:
             Ano: {self.__ano}        
         '''
 
-    # Método de instância
+    
     def calcularTempoUso(self):
         return 2024 - self.ano
 

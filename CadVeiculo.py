@@ -2,7 +2,7 @@ from Carro import Carro
 from Moto import Moto
 from Caminhao import Caminhao
 
-#BD em memória
+
 listaVeiculos = []
 
 def cadastrar():
